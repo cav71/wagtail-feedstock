@@ -1,6 +1,6 @@
 {% set name = "wagtail" %}
-{% set version = "1.11.1" %}
-{% set sha256 = "fb54795d91c79cbaacb40ccfdbf047fa31a49fb65f57ec205d3656af4a9372b7" %}
+{% set version = "1.12.2" %}
+{% set sha256 = "" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  md5: f320c9f16ab52ad0c2554f0875293dd2
 
 build:
   number: 0
